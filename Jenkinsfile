@@ -14,7 +14,7 @@ pipeline {
             steps {
                 git url: 'git@github.com:Mourya595/war-web-project.git',
                     credentialsId: "${env.GIT_SSH_CREDENTIALS_ID}",
-                    branch: 'main' // or use 'master' if that's your default
+                    branch: 'master' // or use 'master' if that's your default
             }
         }
 
